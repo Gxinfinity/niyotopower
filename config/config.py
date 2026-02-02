@@ -17,12 +17,12 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", "29271987"))
+API_ID = int(getenv("API_ID", "26950458"))
 
-API_HASH = getenv("API_HASH", "7f64fefc37d03b7281060321d4ed5035")
+API_HASH = getenv("API_HASH", "d818b8d530e4a9b209509815ab1b9c7c")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("8196761691:AAFSpAAO-_pCpfjSbTIMWNGefPMvNhE8pAg")
+BOT_TOKEN = getenv("")
 
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
@@ -68,7 +68,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002843572899"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002869205475"))
 
 
 # Your User ID.
@@ -80,7 +80,7 @@ OWNER_ID = list(
 # make your bots privacy from telegra.ph and put your url here
 
 PRIVACY_LINK = getenv(
-    "PRIVACY_LINK", "https://telegra.ph/Privacy-Policy-for-VIPMUSIC-08-30"
+    "PRIVACY_LINK", "https://telegra.ph/%F0%93%86%A9%E2%84%9B%E1%B4%8F%E1%B4%8F%CA%9C%C9%AA-%EA%AD%99-%F0%9D%90%8C%E1%B4%9Cs%C9%AA%E1%B4%84%F0%93%86%AA-02-02"
 )
 
 
@@ -107,10 +107,10 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/dark_x_knight_musiczz_support"
+    "SUPPORT_CHANNEL", "https://t.me/cuties_logs"
 )  # Example:- https://t.me/VIP_CREATORS
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/+9BfnSgBRqAs4M2M1"
+    "SUPPORT_GROUP", "https://t.me/cuties_logs"
 )  # Example:- https://t.me/TG_FRIENDSS
 
 SUPPORT_CHAT = getenv(
@@ -177,7 +177,7 @@ SET_CMDS = getenv("SET_CMDS", "False")
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @VIPStringBot
-STRING1 = getenv("STRING_SESSION", "BQG-p7MAcJuyxPrlPmdKrPBn49Ryl-vHSN0gXy5sKr5sWEY87b5H2b4lnALJgumAzcMLmKgS40wAPrHdk8pwalTzirVQBNgQCfpaY-5W5Aj8-nL7IvKgXW_RlgXVpEtn_2iCaqGf6cJW2HoDc-n1ofDLCu7katiGnKzo37WWa9MDjT4QSiLaoTkXrruQbKbQdlh2DUx3dbpgKhL0NP4TeEA8b4GiWq8Y7ZOKikYZhiVtjzqRUKiSAWAqFI1X3ZfRv9k55tkgB2mwTJrfXgrVTDgAWRKuluvAitpb6Mpii1PxrzDAf90T7dQgW1Md9fWV5Tr5Wh1mfxOJknOPiokUfIKcm_fdrwAAAAHbA4EyAA")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
